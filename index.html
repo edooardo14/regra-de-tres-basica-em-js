@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regra de 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <center>
+        <!-- Título Calculadora -->
+        <h1>Regra de Três Offline</h1>
+        <div class="caixaGeral">
+            <!-- Bloco de cima -->
+            <div class="blocoUm">
+                <input id="valueOne" type="text" placeholder="Valor 1">
+                <p style="color: grey;">=</p>
+                <input id="valueTwo" type="text" placeholder="Valor 2">
+            </div>
+            
+            <!-- Bloco de baixo -->
+            <div class="blocoDois">
+                <input id="valueThree" type="text" placeholder="Valor 3">
+                <p style="color: grey;">=</p>
+                <div id="caixaX">
+                <p id="valorX">X</p>
+                </div>
+            </div>
+
+            <!-- Área do botão -->
+            <div class="areaBotao">
+                <button onclick="calcuLar()">Calcular</button>
+            </div>
+            </div>
+        </center>
+</body>
+</html>
