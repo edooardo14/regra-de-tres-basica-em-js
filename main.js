@@ -1,3 +1,10 @@
+document.addEventListener('keydown', function(event){
+    if(event.key === 'Enter'){
+        event.preventDefault()
+        calcuLar()
+    }
+})
+
 function calcuLar(){
     let valor1 = parseFloat(document.getElementById('valueOne').value)
     let valor2 = parseFloat(document.getElementById('valueTwo').value)
@@ -10,4 +17,5 @@ function calcuLar(){
     }else{
         document.getElementById('valorX').textContent = x
     }
+
 }
