@@ -15,7 +15,8 @@ function calcuLar(){
     if(isNaN(valor1) || isNaN(valor2) || isNaN(valor3)){
         window.alert('Valores inválidos :(')
     }else{
-        document.getElementById('valorX').textContent = x
+        document.getElementById('valorX').textContent = x.toFixed(1)
     }
 
 }
+
