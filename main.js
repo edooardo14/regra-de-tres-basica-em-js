@@ -14,8 +14,10 @@ function calcuLar(){
 
     if(isNaN(valor1) || isNaN(valor2) || isNaN(valor3)){
         window.alert('Valores inválidos :(')
+    }else if(Number.isInteger(x)){
+        document.getElementById('valorX').textContent = x   
     }else{
-        document.getElementById('valorX').textContent = x.toFixed(1)
+        document.getElementById('valorX').textContent = x.toFixed(2).replace('.',',')
     }
 
 }
